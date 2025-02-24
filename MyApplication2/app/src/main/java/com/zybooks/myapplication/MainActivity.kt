@@ -8,7 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit height; // This will either be predefined or inputted by user (User input isn't hard)
+    private lateinit var height; // This will either be predefined or inputted by user (User input isn't hard)
     private lateinit var Phone; // Selected phone
     private lateinit var mass; // This comes from selected phone (DATABASE)
     private lateinit var dimensions[]; // 2 options: Either area variables, or dimensions (dimensions is easier)
